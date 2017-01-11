@@ -1,0 +1,70 @@
+body {
+	background-color: Azure;
+}
+
+span {
+    color: red; 
+    font-weight: bold;
+}
+
+h1{
+	color: blue;
+}
+
+a {
+	font-weight: bold;
+}
+
+p {
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+span {
+	background-color: lightblue;
+}
+
+p.red{
+	background-color: red;
+}
+
+p.green{
+	background-color: green;
+}
+
+p.blue{
+	background-color: blue;
+}
+
+/*
+a.red {
+	color: red;
+}
+
+p.blue a{
+	color: yellow;
+}
+
+p.red a,
+p.green a{
+	color: white;
+}
+*/
+
+li.seen{
+	color: silver;
+}
+
+li.seen.good{
+	color: DarkSeaGreen;
+}
+
+li.unseen {
+	color: #B22222;
+}
+
+a {text-decoration: none}
+
+a:hover {text-decoration: line-through;}
+
+
