@@ -1,0 +1,22 @@
+#header {
+	height: 50px;
+	background-color: lightgrey;
+}
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+#content p {
+	border-left: 2px solid teal;
+	padding-left: 10px;
+}
+
+p:first-letter {
+	font-size: 30px;
+	float: left;
+	line-height: 1em;
+
+}

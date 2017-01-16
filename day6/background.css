@@ -1,0 +1,55 @@
+.outer {
+	width: 80%;
+	min-height: 80vh;
+	margin-right: auto;
+	margin-left: auto;	
+	margin-top: 10vh;
+	overflow: hidden;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f46629+0,eaaa2a+45,47aeb7+70,23538a+100 */
+	background: #f46629; /* Old browsers */
+	background: -moz-linear-gradient(top, #f46629 0%, #eaaa2a 45%, #47aeb7 70%, #23538a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f46629 0%,#eaaa2a 45%,#47aeb7 70%,#23538a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f46629 0%,#eaaa2a 45%,#47aeb7 70%,#23538a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f46629', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
+	copy
+}
+
+.inner {
+	width: 50%;
+	margin: 10%;
+	color: #ffffff;
+	padding: 1em;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.5+0,0.5+75,0+100 */
+background: -moz-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 75%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 75%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 75%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+copy
+
+}
+
+.smiling {
+	width: 200px;
+	height: 200px;
+	border: 1px solid white;
+	background-image: url('img/smiley.png');
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-position: center center; 
+
+}
+	
+
+.nebula {
+	width: 100%;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: url('img/nebula.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed; 
+
+
+}
