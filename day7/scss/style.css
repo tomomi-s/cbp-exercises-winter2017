@@ -1,0 +1,48 @@
+/*
+Error: Invalid CSS after "...e_line_spacing(": expected variable (e.g. $foo), was "20px);"
+        on line 17 of /Users/tomomisuda/www/codingbootcamp/exercises/day7/scss/style.scss
+
+12: @mixin nice_line_spacing($font_size){
+13:     line-height: $font_size * 2;
+14: }
+15: 
+16: .p { 
+17:     @mixin nice_line_spacing(20px);
+18:     }
+
+Backtrace:
+/Users/tomomisuda/www/codingbootcamp/exercises/day7/scss/style.scss:17
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/lexer.rb:220:in `expected!'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:580:in `assert_tok'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:425:in `block in defn_arglist!'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:424:in `loop'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:424:in `defn_arglist!'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:121:in `parse_mixin_definition_arglist'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1027:in `sass_script'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:229:in `mixin_directive'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:219:in `special_directive'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:194:in `directive'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...e_line_spacing(\": expected variable (e.g. $foo), was \"20px);\"\A         on line 17 of /Users/tomomisuda/www/codingbootcamp/exercises/day7/scss/style.scss\A \A 12: @mixin nice_line_spacing($font_size){\A 13:     line-height: $font_size * 2;\A 14: }\A 15: \A 16: .p { \A 17:     @mixin nice_line_spacing(20px);\A 18:     }"; }

@@ -1,0 +1,40 @@
+.message {
+    padding: 0.5em 1em;
+    background-color: #CCCCCC;
+    border: 1px solid #666666;
+    margin-bottom: 0.25em;
+
+    background: #CCCCCC url(http://classes.codingbootcamp.cz/assets/classes/8/info.png) 
+    1em center/1em auto no-repeat scroll;
+    background-image: url(http://classes.codingbootcamp.cz/assets/classes/8/info.png);
+    background-position: 1em center;
+    background-size: 1em auto;
+    background-repeat: no-repeat
+    background-attachement: scroll;
+
+    padding-left: 3em;
+}
+
+.message.info {
+    background-color: #BAE7EC;
+    border-color: #44B7C8;
+}
+
+//less practice #2 below//
+
+.message.info {
+    @extend .message
+    background-color: #BAE7EC;
+    border-color: #44B7C8;
+    
+    }
+
+$message_border_darker_by: #333333;
+
+.message.success {
+    @extend .message
+    background-color: #ECE8BA;
+    border-color: #C8A444;
+    background-image: url(http://classes.codingbootcamp.cz/assets/classes/8/warning.png)
+
+}

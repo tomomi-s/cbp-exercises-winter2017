@@ -1,0 +1,49 @@
+/*
+Error: Invalid CSS after "...und-attachement": expected ";", was ": scroll;"
+        on line 13 of /Users/tomomisuda/www/codingbootcamp/exercises/day7/scss/style_2.scss
+
+8:     1em center/1em auto no-repeat scroll;
+9:     background-image: url(http://classes.codingbootcamp.cz/assets/classes/8/info.png);
+10:     background-position: 1em center;
+11:     background-size: 1em auto;
+12:     background-repeat: no-repeat
+13:     background-attachement: scroll;
+14: 
+15:     padding-left: 3em;
+16: }
+17: 
+18: .message.info {
+
+Backtrace:
+/Users/tomomisuda/www/codingbootcamp/exercises/day7/scss/style_2.scss:13
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:761:in `block in try_declaration'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `call'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `rethrow'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:766:in `try_declaration'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:696:in `declaration_or_ruleset'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
+/Users/tomomisuda/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...und-attachement\": expected \";\", was \": scroll;\"\A         on line 13 of /Users/tomomisuda/www/codingbootcamp/exercises/day7/scss/style_2.scss\A \A 8:     1em center/1em auto no-repeat scroll;\A 9:     background-image: url(http://classes.codingbootcamp.cz/assets/classes/8/info.png);\A 10:     background-position: 1em center;\A 11:     background-size: 1em auto;\A 12:     background-repeat: no-repeat\A 13:     background-attachement: scroll;\A 14: \A 15:     padding-left: 3em;\A 16: }\A 17: \A 18: .message.info {"; }

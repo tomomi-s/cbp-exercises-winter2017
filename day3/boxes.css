@@ -1,5 +1,7 @@
 #first{
 	border: 1px solid black;
+	position: absolute;
+	top: 20px;
 }
 
 #second{
@@ -7,8 +9,14 @@
 }
 
 #third{
-	border-top: 3px green solid;
-	border-bottom: 3px green solid;
-	border-right: 1px green solid; 
-	border-left: 0px;
+	border: 1px solid red;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+ul ul {
+	list-style-image: url('http://classes.codingbootcamp.cz/assets/classes/8/bullet.png');
 }
