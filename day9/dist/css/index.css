@@ -1,0 +1,18 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+h1 {
+  color: purple;
+}
+p {
+  font-family: serif;
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */
